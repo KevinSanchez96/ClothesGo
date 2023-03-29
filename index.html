@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="estilos.css">
+  <title>ClothesGo!</title>
+</head>
+
+<body>
+  <header>
+    <div class="ofertas">
+      <p class="txtofertas">LOOK DE PRIMAVERA , a mitad de precio!</p>
+      <p class="txtofertas">07 Horas - 54 Minutos - 30 Segundos</p>
+    </div>
+
+    <div class="nav">
+      <div class="logo">
+        <img
+          src="./assets/imagenes/png-transparent-chanel-logo-fashion-brand-chanel-text-trademark-perfume-thumbnail.png"
+          alt="logoempresa" width="250" height="130">
+      </div>
+      <div class="buscador">
+        <form action="method">
+          <select name="opcionropa" id="opc">
+            <option value="niño">Niños</option>
+            <option value="mujer">Mujer</option>
+            <option value="hombre">Hombre</option>
+          </select>
+          <input class="barra" type="search" name="busqueda" placeholder="Niños,Mujer,Hombre.." required>
+          <input class="botonbuscador" type="submit" value="Buscar">
+        </form>
+      </div>
+      <div class="registro">
+        <p class="txtregistro">Registrese o Inicie Sesion</p>
+      </div>
+    </div>
+    <div>
+      <nav class="navegacion">
+        <a href="">Ropa</a>
+        <a href="">Bolsas</a>
+        <a href="">Zapatos</a>
+        <a href="">Accesorios</a>
+        <a href="">Top Marcas</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="imagencentral">
+      <img src="./assets/imagenes/banner.jpg" alt="banner" class="imgbanner">
+    </div>
+    <p class="ofertax">OFERTAS</p>
+    <section class="cartasropa">
+      <div class="card sombreado" style="width: 18rem; height: 28rem;">
+        <img src="./assets/imagenes/remera1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Remera Azul</h5>
+          <p class="card-text">Channel | Talle : S </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item precio">$5000</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link botoncomprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card sombreado" style="width: 18rem; height: 28rem;">
+        <img src="./assets/imagenes/remera2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Conjunto Animal Print</h5>
+          <p class="card-text">Channel | Talle : M</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item precio">$6000</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link botoncomprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card sombreado" style="width: 18rem; height: 28rem;">
+        <img src="./assets/imagenes/remera3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Buzo Rock</h5>
+          <p class="card-text">Adiddas | Talle : G</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item precio">$3500</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link botoncomprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card sombreado" style="width: 18rem; height: 28rem;">
+        <img src="./assets/imagenes/remera4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Remera Azul</h5>
+          <p class="card-text"> Channel | Talle : S |</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item precio">$9000</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link botoncomprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card sombreado" style="width: 18rem; height: 28rem;">
+        <img src="./assets/imagenes/remera5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Berdmuda</h5>
+          <p class="card-text">Nike | Talle : M |</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item precio">$8500</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link botoncomprar">Comprar</a>
+        </div>
+      </div>
+    </section>
+    <section class="contacto">
+      <div class="card mapa">
+        <p class="card-text mapatxt">Por cualquier consulta puede venir personalmente al local ubicado en : </p>
+        <iframe class="iframemapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13125.047664376343!2d-58.61153344999999!3d-34.67333855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc71366c27997%3A0x3ba9ef1f0551c6c7!2sSupermercados%20DIA!5e0!3m2!1ses-419!2sar!4v1679698706366!5m2!1ses-419!2sar"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="formulario">
+        <h2 class="txtform">Formulario de contacto</h2>
+        <form action="" method="post" autocomplete="off">
+          <p>
+            <label for="nombre">Nombre</label>
+          </p>
+          <input type="text" name="nombre1" id="nombre" placeholder="Ingresar Nombre" required>
+          <p>
+            <label for="email">Correo electronico</label>
+          </p>
+          <input type="email" name="correo" id="correoe" placeholder="Ingresar Correo Electronico" required>
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+    <section>
+      <p class="ofertax">CATEGORIAS</p>
+      <div class="categorias">
+        <div class="card sombreado" style="width: 18rem; height: 28rem;">
+          <img src="./assets/imagenes/vestido.jpg" class="card-img-top imgcat" alt="...">
+          <div class="card-body">
+            <h5 class="card-title txtcat">Vestidos</h5>
+          </div>
+        </div>
+        <div class="card sombreado" style="width: 18rem; height: 28rem;">
+          <img src="./assets/imagenes/pantalones.jpg" class="card-img-top imgcat" alt="...">
+          <div class="card-body">
+            <h5 class="card-title txtcat">Jeans</h5>
+          </div>
+        </div>
+        <div class="card sombreado" style="width: 18rem; height: 28rem;">
+          <img src="./assets/imagenes/chaquetas.jpg" class="card-img-top imgcat" alt="...">
+          <div class="card-body">
+            <h5 class="card-title txtcat">Chaquetas</h5>
+          </div>
+        </div>
+        <div class="card sombreado" style="width: 18rem; height: 28rem;">
+          <img src="./assets/imagenes/accesorios.jpg" class="card-img-top imgcat" alt="...">
+          <div class="card-body">
+            <h5 class="card-title txtcat">Accesorios</h5>
+          </div>
+        </div>
+        <div class="card sombreado" style="width: 18rem; height: 28rem;">
+          <img src="./assets/imagenes/zapatos.jpg" class="card-img-top imgcat" alt="...">
+          <div class="card-body">
+            <h5 class="card-title txtcat">Zapatos</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footerfondo">
+    <div>
+      <h3 class="footerh3">ClothesGo!</h3>
+      <p><a href="#" class="ancla">¿Quienes somos?</a></p>
+      <p><a href="#" class="ancla">¿Como funciona?</a></p>
+      <p><a href="#" class="ancla">Contacto</a></p>
+      <p><a href="#" class="ancla">Blog</a></p>
+    </div>
+    <div>
+      <h3 class="footerh3">Legal</h3>
+      <p><a href="#" class="ancla">Terminos y condiciones</a></p>
+      <p><a href="#" class="ancla">Aviso de privacidad</a></p>
+      <p><a href="#" class="ancla">Uso de cookies</a></p>
+    </div>
+    <div>
+      <h3 class="footerh3">Soporte</h3>
+      <p><a href="#" class="ancla">Preguntas frecuentes</a></p>
+      <p><a href="#" class="ancla">Chat de ayuda</a></p>
+    </div>
+    <div class="redes">
+      <i class='bx bxl-facebook bx-lg' style='color:#2604ec'  ></i>
+      <i class='bx bxl-instagram bx-lg' style='color:#ff9000'  ></i>
+      <i class='bx bxl-whatsapp bx-lg' style='color:#18e804'  ></i>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

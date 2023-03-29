@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.ofertas{
+    width: 100%;
+    background-color: rgb(42, 145, 145);
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.txtofertas{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+.nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.logo{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 20%;
+    margin-top: 20px;
+
+}
+.buscador{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.registro{
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    border: black solid 1px;
+    border-radius: 20px;
+    width: 250px;
+    margin-right: 20px;
+}
+.registro:hover{
+    background-color: rgba(148, 5, 5, 0.555);
+    color: whitesmoke;
+}
+.ropa{
+    background-color: olive;
+    height: 3em;
+    text-align: center;
+}
+.barra{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.botonbuscador{
+    height: 50px;
+    border-radius: 20px;
+    width: 60px;
+}
+#opc{
+    margin: 10px;
+}
+.navegacion{
+    text-align: center;
+}
+.navegacion a:hover{
+    background-color: rgba(148, 5, 5, 0.555);
+    color: whitesmoke;
+    text-size-adjust: 10px;
+}
+
+.imagencentral{
+    height: 50vh;
+    margin-top: 30px;
+}
+.imagencentral img{
+    width: 100%;
+    height: 420px;
+    margin-top: 10px;
+    filter: opacity(0.5);
+}
+.cartasropa{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+    text-align: center;
+}
+.precio{
+    color: brown;
+    font-weight: bolder;
+}
+.botoncomprar{
+    background-color: rgba(165, 42, 42, 0.336);
+    font-size:x-large;
+    height: 50px;
+}
+.botoncomprar:hover{
+    background-color: blanchedalmond;
+}
+.sombreado{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.068);
+}
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.mapa{
+    margin-top: 30px;
+    width: 45%;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+.formulario{
+    width: 45%;
+    background-color: rgba(250, 235, 215, 0.596);
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.iframemapa{
+    width: 100%;
+    height: 80%;
+}
+.mapatxt{
+    font-weight: 900;
+    margin-top: 10px;
+    text-align: center;
+}
+.ofertax{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+.categorias{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgcat{
+    height: 80%;
+}
+.imgcat:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    animation-duration: 0.2;
+    -webkit-transition:all 0.55s ease-in-out;
+    -moz-transition:all 0.55s ease-in-out;
+    -o-transition:all 0.55s ease-in-out;
+    -ms-transition:all 0.55s ease-in-out;
+    transition:all 0.55s ease-in-out;
+}
+.txtcat{
+    text-align: center;
+}
+.footerfondo{
+    background-color: rgba(216, 213, 213, 0.623);
+    height: 30vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerh3{
+    margin-top: 30px;
+    position: relative;
+    left: 10px;
+}
+.ancla:hover{
+    color: brown;
+}
+.redes{
+    margin-top: 30px;
+}
